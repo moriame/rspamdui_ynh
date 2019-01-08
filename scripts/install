@@ -53,9 +53,6 @@ ynh_app_setting_set $app admin "$admin"
 # STANDARD MODIFICATIONS
 #=================================================
 
-# Set admin user
-exec_console $app "$final_path" fos:user:promote --super "$admin"
-
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
