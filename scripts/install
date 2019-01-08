@@ -69,9 +69,6 @@ else
 fi
 ynh_store_file_checksum "/etc/nginx/conf.d/$domain.d/$app.conf"
 
-# Copy and set php-fpm configuration
-ynh_add_fpm_config
-
 # Set SSOwat rules
 ynh_app_setting_set "$app" unprotected_uris "/"
 
