@@ -32,6 +32,15 @@
         },
         "example": "/rspamd",
         "default": "/rspamd"
+      },
+      {
+        "name": "admin",
+        "type": "user",
+        "ask": {
+          "en": "Choose the Rspamd administrator",
+          "fr": "Choisissez l'administrateur de Rspamd"
+        },
+        "example": "homer"
       }
     ]
   }
